@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "tracking_graph"
+version = "0.9.0"
+description = "Algorithm to track clusters across recordings"
+authors = ["Fernando Julian Chaure <fchaure@fi.uba.ar>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.37.0"
+networkx = "^3.3"
+numpy = "^2.0.1"
+matplotlib = "^3.9.1"
+spikeinterface = "0.100"
+streamlit-echarts = "^0.4.0"
+h5py = "^3.11.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[tool.poetry.scripts]
+tg_gui = "tg_gui.run:run_tg_server"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

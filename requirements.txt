@@ -1,5 +1,0 @@
-scipy
-spikeinterface[full]
-networkx
-pandas
-matplotlib
