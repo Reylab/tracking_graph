@@ -1,8 +1,7 @@
 # Tracking_Graph
 ![GitHub License](https://img.shields.io/github/license/reylab/tracking_graph)
 
-Tracking_Graph is a tool for track units across spike sorting solutions. This package is part of the PhD 
-This project is part of my PhD research at [University Name]
+Tracking_Graph is a tool for track units across spike sorting solutions.
 
 ## Installation
 
